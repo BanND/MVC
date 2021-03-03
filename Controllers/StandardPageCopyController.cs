@@ -1,16 +1,16 @@
-using System;
-using System.Web.Mvc;
 using EPiServer.Core;
-using MVC.Models.Pages;
-using MVC.Models.ViewModels;
+using EPiServer.SpecializedProperties;
 using EPiServer.Web;
 using EPiServer.Web.Mvc;
+using MVC.Models.Pages;
+using MVC.Models.ViewModels;
+using System.Web.Mvc;
 
 namespace MVC.Controllers
 {
-    public class StartPageController : PageControllerBase<StartPage>
+    public class StandardPageCopyController : PageControllerBase<StandardPageCopy>
     {
-        public ActionResult Index(StartPage currentPage)
+        public ActionResult Index(StandardPageCopy currentPage)
         {
             var model = PageViewModel.Create(currentPage);
 
@@ -18,7 +18,10 @@ namespace MVC.Controllers
             PropertyData property = currentPage.Property["TestProp1Description"];
             if (property != null && !property.IsNull)
             {
-                var editHints = ViewData.GetEditHints<PageViewModel<StartPage>, StartPage>();
+                var editHints = ViewData.GetEditHints<PageViewModel<StandardPageCopy>, StandardPageCopy>();
+                editHints.AddConnection(m => m.CurrentPage.TestProp1, p => p.TestProp1);
+                editHints.AddConnection<LinkItemCollection>(m => m.Layout.CustomerZonePages, p => new LinkItemCollection());
+
             }
 
             var propertyValueAsString = currentPage["TestProp1Description"] as string;
@@ -30,12 +33,9 @@ namespace MVC.Controllers
             if (SiteDefinition.Current.StartPage.CompareToIgnoreWorkID(currentPage.ContentLink)) // Check if it is the StartPage or just a page of the StartPage type.
             {
                 //Connect the view models logotype property to the start page's to make it editable
-                var editHints = ViewData.GetEditHints<PageViewModel<StartPage>, StartPage>();
-                editHints.AddConnection(m => m.Layout.Logotype, p => p.SiteLogotype);
-                editHints.AddConnection(m => m.Layout.ProductPages, p => p.ProductPageLinks);
-                editHints.AddConnection(m => m.Layout.CompanyInformationPages, p => p.CompanyInformationPageLinks);
-                editHints.AddConnection(m => m.Layout.NewsPages, p => p.NewsPageLinks);
-                editHints.AddConnection(m => m.Layout.CustomerZonePages, p => p.CustomerZonePageLinks);
+                var editHints = ViewData.GetEditHints<PageViewModel<StandardPageCopy>, StandardPageCopy>();
+                editHints.AddConnection(m => m.CurrentPage.TestProp1, p => p.TestProp1);
+                editHints.AddConnection<LinkItemCollection>(m => m.Layout.CustomerZonePages, p => new LinkItemCollection());
             }
 
             return View(model);

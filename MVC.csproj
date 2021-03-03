@@ -292,6 +292,7 @@
     <Compile Include="Controllers\PageListBlockController.cs" />
     <Compile Include="Controllers\PreviewController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
+    <Compile Include="Controllers\StandardPageCopyController.cs" />
     <Compile Include="Controllers\StartPageController.cs" />
     <Compile Include="Controllers\VideoFileController.cs" />
     <Compile Include="Global.asax.cs">
@@ -401,6 +402,7 @@
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="App_Data\DefaultSiteContent.episerverdata" />
+    <Content Include="ClassDiagram1.cd" />
     <None Include="EPiServerLog.config" />
     <Content Include="modules\_protected\Shell\web.config" />
     <Content Include="modules\_protected\Shell\Shell.zip" />
@@ -448,6 +450,7 @@
     <Content Include="Views\ImageFile\Index.cshtml" />
     <Content Include="Views\ContactBlock\Index.cshtml" />
     <Content Include="Views\ArticlePage\Index.cshtml" />
+    <Content Include="Views\StandardPageCopy\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

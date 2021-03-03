@@ -1,0 +1,12 @@
+@using MVC
+@model PageViewModel<StandardPageCopy>
+
+@{ Layout = "~/Views/Shared/Layouts/_LeftNavigation.cshtml"; }
+
+<h1 @Html.EditAttributes(x => x.CurrentPage.PageName)>@Model.CurrentPage.PageName</h1>
+
+<div class="span8 clearfix">
+    <h1>@Model.CurrentPage.TestProp1</h1>
+    <h1>@Model.CurrentPage["TestProp1"].ToString()</h1>
+    <h1>@Model.CurrentPage.Property["TestProp1"].ToString()</h1>
+</div>

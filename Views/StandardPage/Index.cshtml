@@ -11,3 +11,6 @@
     </div>
 </div>
 @Html.PropertyFor(x => x.CurrentPage.MainContentArea, new { CssClass = "row", Tag = Global.ContentAreaTags.TwoThirdsWidth })
+<div class="span8 clearfix">
+    @Html.DisplayFor(m => m.CurrentPage.Property["PropertyName"].Value.ToString())
+</div>

@@ -1,0 +1,613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MVC.AdministratorRegistrationPage" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAIAAAAKAAAEAAgAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Business\AdministratorRegistrationPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.EPiServerApplication" Collapsed="true">
+    <Position X="19.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Global" Collapsed="true">
+    <Position X="28.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAEBAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Global.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Startup" Collapsed="true">
+    <Position X="23" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.Channels.DisplayResolutionBase" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAABAAAAAAAAAAAAEQAAAAAAAAAAIAEAAAAAAA=</HashCode>
+      <FileName>Business\Channels\DisplayResolutionBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MVC.Business.Channels.StandardResolution" Collapsed="true">
+    <Position X="0.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Channels\DisplayResolutions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.Channels.IpadHorizontalResolution" Collapsed="true">
+    <Position X="3" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Channels\DisplayResolutions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.Channels.IphoneVerticalResolution" Collapsed="true">
+    <Position X="5.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Channels\DisplayResolutions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.Channels.AndroidVerticalResolution" Collapsed="true">
+    <Position X="7.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Channels\DisplayResolutions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.Channels.MobileChannel" Collapsed="true">
+    <Position X="24.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAQAAgAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Business\Channels\MobileChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.Channels.WebChannel" Collapsed="true">
+    <Position X="21.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Channels\WebChannel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.ContentExtensions" Collapsed="true">
+    <Position X="21.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\ContentExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.ContentLocator" Collapsed="true">
+    <Position X="23" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAIAAAAAAAAAAAAAAAAABAggECAAAAAAA=</HashCode>
+      <FileName>Business\ContentLocator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.PageContextActionFilter" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAIAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Business\PageContextActionFilter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVC.Business.PageTypeExtensions" Collapsed="true">
+    <Position X="31.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\PageTypeExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.PageViewContextFactory" Collapsed="true">
+    <Position X="19.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAgAAiAAAAAAAAAAAAAAAAABAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Business\PageViewContextFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.ServiceLocatorDependencyResolver" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAiAAAIAAAAAAAAAAAAAAAAABAAEA=</HashCode>
+      <FileName>Business\ServiceLocatorDependencyResolver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVC.Business.EditorDescriptors.ContactPageSelectionFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Business\EditorDescriptors\ContactPageSelectionFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVC.Business.EditorDescriptors.ContactPageSelector" Collapsed="true">
+    <Position X="31.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\EditorDescriptors\ContactPageSelector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.EditorDescriptors.StringListEditorDescriptor" Collapsed="true">
+    <Position X="24.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\EditorDescriptors\StringListEditorDescriptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.Initialization.BundleConfig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAADAAAAAAAAAAAAg=</HashCode>
+      <FileName>Business\Initialization\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVC.Business.Initialization.CustomizedRenderingInitialization" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAAAAAAg=</HashCode>
+      <FileName>Business\Initialization\CustomizedRenderingInitialization.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVC.Business.Initialization.DependencyResolverInitialization" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQQAAAAAAAAAAAAAAACAAAAAAAAAAAAg=</HashCode>
+      <FileName>Business\Initialization\DependencyResolverInitialization.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVC.Business.Initialization.DisplayModesInitialization" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="30" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAIAAAAg=</HashCode>
+      <FileName>Business\Initialization\DisplayModesInitialization.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVC.Business.Initialization.DisplayRegistryInitialization" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAAAAAAg=</HashCode>
+      <FileName>Business\Initialization\DisplayRegistryInitialization.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVC.Business.Initialization.ExtendedTinyMceInitialization" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Business\Initialization\ExtendedTinyMceInitialization.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVC.Business.Initialization.FilterConfig" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAACAAAAAAAAAAAAg=</HashCode>
+      <FileName>Business\Initialization\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVC.Business.Rendering.AlloyContentAreaRenderer" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Business\Rendering\AlloyContentAreaRenderer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.Rendering.ErrorHandlingContentRenderer" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABAQAAAAAAA=</HashCode>
+      <FileName>Business\Rendering\ErrorHandlingContentRenderer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVC.Business.Rendering.SiteViewEngine" Collapsed="true">
+    <Position X="21.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Rendering\SiteViewEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Business.Rendering.TemplateCoordinator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAAEAAAABAAAAAAAAAAAAAAAABAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Business\Rendering\TemplateCoordinator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVC.Business.UIDescriptors.ContainerPageUIDescriptor" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\UIDescriptors\ContainerPageUIDescriptor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Controllers.ContactBlockController" Collapsed="true">
+    <Position X="26.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAAAIAQA=</HashCode>
+      <FileName>Controllers\ContactBlockController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Controllers.DefaultPageController" Collapsed="true">
+    <Position X="2.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\DefaultPageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Controllers.ImageFileController" Collapsed="true">
+    <Position X="19.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\ImageFileController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Controllers.PageControllerBase&lt;T&gt;" Collapsed="true">
+    <Position X="1.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAUAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\PageControllerBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MVC.Controllers.PageListBlockController" Collapsed="true">
+    <Position X="28.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAQAAAAACAAAAAAAAEAAAAAAAE=</HashCode>
+      <FileName>Controllers\PageListBlockController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Controllers.PreviewController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="23" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAQAACAAAQAAAAAAAAgAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\PreviewController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MVC.Controllers.RegisterController" Collapsed="true">
+    <Position X="26.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABEACAAgAABAAAAEAAAAAAgAAAAAAAAAAEAAAAgAAA=</HashCode>
+      <FileName>Controllers\RegisterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Controllers.StandardPageCopyController" Collapsed="true">
+    <Position X="0.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\StandardPageCopyController.cs</FileName>
+      <NewMemberFileName>Controllers\StartPageController.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Controllers.VideoFileController" Collapsed="true">
+    <Position X="31.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\VideoFileController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Helpers.CategorizableExtensions" Collapsed="true">
+    <Position X="24.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Helpers\CategorizableExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Helpers.HtmlHelpers" Collapsed="true">
+    <Position X="30" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAABBAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Helpers\HtmlHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Helpers.UrlHelpers" Collapsed="true">
+    <Position X="28.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAg=</HashCode>
+      <FileName>Helpers\UrlHelpers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Blocks.ButtonBlock" Collapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\Blocks\ButtonBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Blocks.ContactBlock" Collapsed="true">
+    <Position X="12.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAACBAAAAAAACAAAAE=</HashCode>
+      <FileName>Models\Blocks\ContactBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Blocks.EditorialBlock" Collapsed="true">
+    <Position X="14.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Blocks\EditorialBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Blocks.JumbotronBlock" Collapsed="true">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAEAAABAAAAAAACAAIBA=</HashCode>
+      <FileName>Models\Blocks\JumbotronBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Blocks.PageListBlock" Collapsed="true">
+    <Position X="3.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAgAAAAAACAAAAAAAAQIAIAAEAAAAAAAACACAAA=</HashCode>
+      <FileName>Models\Blocks\PageListBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Blocks.SiteBlockData" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Blocks\SiteBlockData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Blocks.SiteLogotypeBlock" Collapsed="true">
+    <Position X="5.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\Blocks\SiteLogotypeBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Blocks.TeaserBlock" Collapsed="true">
+    <Position X="7.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAASCAAAAA=</HashCode>
+      <FileName>Models\Blocks\TeaserBlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Media.GenericMedia" Collapsed="true">
+    <Position X="26.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Media\GenericMedia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Media.ImageFile" Collapsed="true">
+    <Position X="31.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Media\ImageFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Media.VideoFile" Collapsed="true">
+    <Position X="30" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Media\VideoFile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Pages.ArticlePage" Collapsed="true">
+    <Position X="10.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Pages\ArticlePage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Pages.ContactPage" Collapsed="true">
+    <Position X="14.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAABAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\Pages\ContactPage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MVC.Models.Pages.ContainerPage" Collapsed="true">
+    <Position X="1.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Pages\ContainerPage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MVC.Models.Pages.LandingPage" Collapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAACAAA=</HashCode>
+      <FileName>Models\Pages\LandingPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Pages.NewsPage" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Models\Pages\NewsPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Pages.ProductPage" Collapsed="true">
+    <Position X="8" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Pages\ProductPage.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MVC.Models.Pages.SitePageData" Collapsed="true">
+    <Position X="9" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAgAAAAAAAAAAAAAAABAAgEAAAAAgAQgAAABAAAA=</HashCode>
+      <FileName>Models\Pages\SitePageData.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MVC.Models.Pages.StandardPage" Collapsed="true">
+    <Position X="8" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Models\Pages\StandardPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Pages.StandardPageCopy" Collapsed="true">
+    <Position X="12.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAIAAAAAAAAAgABAQAAAAAAAA=</HashCode>
+      <FileName>Models\Pages\StandardPageCopy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Pages.StartPage" Collapsed="true">
+    <Position X="17" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAIAABAAAAABAAACCAAABAEAAAAABAA=</HashCode>
+      <FileName>Models\Pages\StartPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.Properties.PropertyStringList" Collapsed="true">
+    <Position X="24.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAABgAAAAgAAAAAAI=</HashCode>
+      <FileName>Models\Properties\PropertyStringList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.RegisterViewModel" Collapsed="true">
+    <Position X="28.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAQAAAAAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>Models\Register\RegisterViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.SiteContentType" Collapsed="true">
+    <Position X="31.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SiteContentType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.SiteImageUrl" Collapsed="true">
+    <Position X="19.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SiteImageUrl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.ViewModels.ContactBlockModel" Collapsed="true">
+    <Position X="28.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAEAAAACBAAAAAAgCAAAAA=</HashCode>
+      <FileName>Models\ViewModels\ContactBlockModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.ViewModels.ContentRenderingErrorModel" Collapsed="true">
+    <Position X="24.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAIAAAA=</HashCode>
+      <FileName>Models\ViewModels\ContentRenderingErrorModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.ViewModels.ImageViewModel" Collapsed="true">
+    <Position X="21.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAQAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\ImageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.ViewModels.LayoutModel" Collapsed="true">
+    <Position X="23" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAIAAhAIAAAABAgAAAAAAAAAAAADCAAAAAAEAE=</HashCode>
+      <FileName>Models\ViewModels\LayoutModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.ViewModels.PageListModel" Collapsed="true">
+    <Position X="30" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAgAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Models\ViewModels\PageListModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.ViewModels.PageViewModel&lt;T&gt;" Collapsed="true">
+    <Position X="5.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAIAAAAI=</HashCode>
+      <FileName>Models\ViewModels\PageViewModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="MVC.Models.ViewModels.PageViewModel" Collapsed="true">
+    <Position X="21.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\PageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.ViewModels.PreviewModel" Collapsed="true">
+    <Position X="5.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Models\ViewModels\PreviewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MVC.Models.ViewModels.VideoViewModel" Collapsed="true">
+    <Position X="19.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAQAA=</HashCode>
+      <FileName>Models\ViewModels\VideoViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="MVC.Business.IModifyLayout" Collapsed="true">
+    <Position X="24.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\IModifyLayout.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MVC.Business.Rendering.IContainerPage" Collapsed="true">
+    <Position X="19.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Business\Rendering\IContainerPage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MVC.Business.Rendering.ICustomCssInContentArea" Collapsed="true">
+    <Position X="21.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Business\Rendering\ICustomCssInContentArea.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MVC.Models.Pages.IHasRelatedContent" Collapsed="true">
+    <Position X="23" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Pages\IHasRelatedContent.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MVC.Models.Pages.ISearchPage" Collapsed="true">
+    <Position X="28.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Pages\ISearchPage.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="MVC.Models.ViewModels.IPageViewModel&lt;T&gt;" Collapsed="true">
+    <Position X="26.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAIAAAAI=</HashCode>
+      <FileName>Models\ViewModels\IPageViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
